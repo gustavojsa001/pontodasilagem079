@@ -77,6 +77,20 @@
       text-align: center;
       padding: 15px;
     }
+    .banner {
+    background: url('banner.jpg') center/cover;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo {
+    width: 200px;
+    background: rgba(255,255,255,0.8);
+    padding: 10px;
+    border-radius: 10px;
+  }
   </style>
 </head>
 
@@ -87,7 +101,9 @@
   <p>Qualidade para o seu rebanho 🌽</p>
 </header>
 
-<div class="banner"></div>
+<div class="banner">
+  <img src="silo1.png" class="logo">
+</div>
 
 <section class="produtos">
 
@@ -98,7 +114,7 @@
     <a href="#">Comprar</a>
   </div>
 
-  <img src="logo.png" class="logo">
+  <div class="produto">
     <img src="silagem-sorgo.jpg">
     <h3>Silagem de Sorgo</h3>
     <p>R$ 40,00 / saco</p>
