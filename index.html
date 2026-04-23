@@ -1,1 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ponto da Silagem</title>
 
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f5f0;
+    }
+
+    header {
+      background: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    header p {
+      margin: 5px 0 0;
+    }
+
+    .banner {
+      background: url('banner.jpg') center/cover;
+      height: 200px;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+
+    .produto {
+      background: white;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .produto img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .produto h3 {
+      margin: 10px 0;
+    }
+
+    .produto p {
+      color: #2e7d32;
+      font-weight: bold;
+    }
+
+    .produto a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #4caf50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    footer {
+      background: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Ponto da Silagem</h1>
+  <p>Qualidade para o seu rebanho 🌽</p>
+</header>
+
+<div class="banner"></div>
+
+<section class="produtos">
+
+  <div class="produto">
+    <img src="silagem-milho.jpg">
+    <h3>Silagem de Milho</h3>
+    <p>R$ 45,00 / saco</p>
+    <a href="#">Comprar</a>
+  </div>
+
+  <div class="produto">
+    <img src="silagem-sorgo.jpg">
+    <h3>Silagem de Sorgo</h3>
+    <p>R$ 40,00 / saco</p>
+    <a href="#">Comprar</a>
+  </div>
+
+  <div class="produto">
+    <img src="feno.jpg">
+    <h3>Feno Premium</h3>
+    <p>R$ 35,00</p>
+    <a href="#">Comprar</a>
+  </div>
+
+</section>
+
+<footer>
+  <p>📞 Contato: (79) 99999-9999</p>
+  <p>© 2026 Ponto da Silagem</p>
+</footer>
+
+</body>
+</html>
